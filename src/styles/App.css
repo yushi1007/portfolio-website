@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* HOME PAGE */
+.myname h1{
+  font-size: 6vw;
+}
+
+.mytitle h2 {
+  font-size: 5vw;
+}
