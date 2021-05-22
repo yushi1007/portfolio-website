@@ -155,3 +155,8 @@ section .wave.wave4 {
   text-align: left;
   font-weight: bold;
 }
+
+.icon ul {
+  display: flex;
+  list-style: none;
+}
