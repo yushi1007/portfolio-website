@@ -5,7 +5,7 @@ import Slide from 'react-reveal/Slide'
 
 const About = () => {
     return(
-    <div id="about" class="section section-summary js--section-summary">
+    <div id="about" class="section section-summary">
         <div className="row about">
         <Slide left duration={800}>
             <h1>ABOUT ME</h1>
