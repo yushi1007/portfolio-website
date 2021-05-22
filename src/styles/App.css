@@ -156,7 +156,44 @@ section .wave.wave4 {
   font-weight: bold;
 }
 
-.icon ul {
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 6vh;
+}
+
+.icons ul {
   display: flex;
   list-style: none;
+}
+
+.icons li {
+  margin:0 60px 0 60px ;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.icons li:hover {
+  transform: scale(1.5);
+}
+
+.linkedin{
+  text-decoration: none;
+  color: #0072b1;
+  font-size: 50px;
+}
+
+.instagram {
+  color: #C13584;
+  font-size: 50px;
+}
+
+.medium {
+  color:black;
+  font-size: 50px;
+}
+
+.github{
+  color: black;
+  font-size: 50px;
 }

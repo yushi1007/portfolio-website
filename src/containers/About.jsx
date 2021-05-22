@@ -21,8 +21,8 @@ const About = () => {
             </p>
         </Fade>
         </div>
-        <Fade bottom duration={1000} delay={300} cascade>
-            <div className="icon">
+        <Fade bottom duration={1000} delay={600} cascade>
+            <div className="icons">
                 <ul>
                     <li><a className="linkedin" href="https://www.linkedin.com/in/yushi95"><i className="fab fa-linkedin"></i></a></li>
                     <li><a className="instagram" href="https://www.instagram.com/yushi.95"><i className="fab fa-instagram"></i></a></li>
@@ -31,7 +31,7 @@ const About = () => {
                 </ul>
             </div>
         </Fade>
-        <Fade bottom duration={1000} delay={300} cascade>
+        <Fade bottom duration={1000} delay={750} cascade>
             <div className="resumelink">
                 <div>
                   <a href={Resume} target="_blank" rel="noreferrer">View Resume</a>
