@@ -3,7 +3,6 @@ import { Link } from "react-scroll"
 import Typical from 'react-typical'
 import Fade from 'react-reveal/Fade';
 import Arrow from '../svg/arrow.svg';
-import wave from '../images/wave.png';
 
 const Home = () => {
     return(
