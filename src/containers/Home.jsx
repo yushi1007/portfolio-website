@@ -16,7 +16,8 @@ const Home = () => {
             <div className="introduction">
                 <Fade delay={200} bottom cascade>
                     <div className="myname">
-                        <h1>Hello world 👋, I'm Yu Shi</h1>
+                        <h1>Hello world 👋!</h1>
+                        <h1>I'm Yu Shi.</h1>
                     </div>
                 </Fade>
                 <Fade delay={400} bottom >

@@ -1,3 +1,5 @@
+@import "./Grid.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -96,6 +98,7 @@ section .wave.wave4 {
 
 .myname h1{
   font-size: 3em;
+  margin: 0;
 }
 
 .mytitle p {
