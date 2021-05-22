@@ -1,10 +1,19 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import { Link } from "react-scroll"
 import Typical from 'react-typical'
+import Fade from 'react-reveal/Fade';
+import Arrow from '../svg/arrow.svg';
+import wave from '../images/wave.png';
 
-function Home () {
+const Home = () => {
     return(
-        <div className="homepage">
+        <div id="home" className="homepage">
+            <section>
+                <div className="wave wave1"></div>
+                <div className="wave wave2"></div>
+                <div className="wave wave3"></div>
+                <div className="wave wave4"></div>
+            </section>
             <div className="introduction">
                 <Fade delay={200} bottom cascade>
                     <div className="myname">
@@ -31,7 +40,9 @@ function Home () {
                         </p>    
                     </div>
                 </Fade>
-                <Fade></Fade>
+                <Fade delay={600} bottom>
+                    <Link to="about" smooth={true} duration={500}><img className="arrow" src={Arrow} alt="scroll down"/></Link>
+                </Fade>
             </div>
         </div>
     )
