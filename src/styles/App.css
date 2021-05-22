@@ -171,7 +171,7 @@ ul {
 }
 
 ul li {
-  margin:0 60px 0 60px ;
+  margin:0 60px 0 60px;
   text-decoration: none;
   transition: transform .2s;
 }
@@ -291,3 +291,33 @@ ul li:nth-child(4) a:hover::after {
   background: #494949;
 }
 
+.resumelink {
+  width: 90%;
+  margin: 100px 5%;
+}
+
+.resumelink div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.resumelink div a {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  background-color: #009ed9;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 7px 30px;
+  color: white;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  transition: 0.3s;
+}
+
+.resumelink div a:hover {
+  background-color: black;
+}
