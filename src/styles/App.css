@@ -130,3 +130,28 @@ section .wave.wave4 {
 .section {
   padding: 80px 0;
 }
+
+.about h1 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about h1:after {
+  display: block;
+  height: 2px;
+  background-color: #3fc5f0;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.summary {
+  width: 50%;
+  line-height: 145%;
+  margin: 0 25% 0 25%;
+  text-align: left;
+  font-weight: bold;
+}
