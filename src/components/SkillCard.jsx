@@ -17,6 +17,4 @@ const SkillCard = ({ icon, title, description }) => {
     )
 }
 
-export default SkillCard;
-
-// HTML: I am very comfortable writing HTML elements in Javascript and place them in the DOM. I will continue improving my use of HTML semantic tag. 
+export default SkillCard; 
