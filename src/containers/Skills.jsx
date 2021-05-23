@@ -1,6 +1,7 @@
 import React from 'react';
 import Css from '../svg/css.svg'
 import Html from '../svg/html.svg'
+import Git from '../images/git.png'
 import Rails from '../images/rails.png'
 import Redux from '../images/redux.png'
 import ReactLogo from '../images/react.png'
@@ -24,32 +25,37 @@ const Skills = () => {
             <SkillCard 
                 icon={Css}
                 title={"CSS"}
-                description={"I am very comfortable writing HTML elements in Javascript and place them in the DOM. I will continue improving my use of HTML semantic tag."}
+                description={"Love it. I write custom CSS for my project to control the look and feel of the content written in HTML. I enjoy the entire process."}
             />
             <SkillCard 
                 icon={JavaScript}
                 title={"JavaScript"}
-                description={"I am very comfortable writing HTML elements in Javascript and place them in the DOM. I will continue improving my use of HTML semantic tag."}
+                description={"Most frequently used programming language to make HTML pages more dynamic and interactive."}
             />
             <SkillCard 
                 icon={ReactLogo}
                 title={"React"}
-                description={"I am very comfortable writing HTML elements in Javascript and place them in the DOM. I will continue improving my use of HTML semantic tag."}
+                description={"I use React for frontend web-development. It allow us to create reusable UI components"}
             />
              <SkillCard 
                 icon={Redux}
                 title={"Redux"}
-                description={"I am very comfortable writing HTML elements in Javascript and place them in the DOM. I will continue improving my use of HTML semantic tag."}
+                description={"I use redux to manage application's state."}
             />
               <SkillCard 
                 icon={Rails}
                 title={"Ruby on Rails"}
-                description={"I am very comfortable writing HTML elements in Javascript and place them in the DOM. I will continue improving my use of HTML semantic tag."}
+                description={"I use Ruby on Rails for developing database-backed web application."}
             />
                <SkillCard 
                 icon={PostgreSQL}
                 title={"PostgreSQL"}
-                description={"I am very comfortable writing HTML elements in Javascript and place them in the DOM. I will continue improving my use of HTML semantic tag."}
+                description={"PostgreSQL help me to protect data integrity and manage my data no matter how big or small the dataset."}
+            />
+                <SkillCard 
+                icon={Git}
+                title={"Git"}
+                description={"Most frequently used version control system. Worked on a variety of collaborative projects that utilized Git workflow."}
             />
         </div>
     </div>
