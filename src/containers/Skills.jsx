@@ -7,16 +7,17 @@ import Redux from '../images/redux.png'
 import ReactLogo from '../images/react.png'
 import JavaScript from '../images/javascript.png'
 import PostgreSQL from '../images/postgresql.png'
-import Slide from 'react-reveal/Slide'
+import Adobe from '../images/adobecreativecloud.png'
 import SkillCard from '../components/SkillCard';
+import Slide from 'react-reveal/Slide'
 
 const Skills = () => {
     return (
     <div id="skills" className="section skillspage">
-        <div className="skillscontainer">
             <Slide left duration={800}>
                 <h1>TECHNICAL SKILLS</h1>
             </Slide>
+        <div className="skillscontainer">
             <SkillCard 
                 icon={Html}
                 title={"HTML"}
@@ -56,6 +57,11 @@ const Skills = () => {
                 icon={Git}
                 title={"Git"}
                 description={"Most frequently used version control system. Worked on a variety of collaborative projects that utilized Git workflow."}
+            />
+               <SkillCard 
+                icon={Adobe}
+                title={"Creative Cloud"}
+                description={"I use Adobe Creative Cloud software for logo design, photo editing and web development. I want to continue improving my skills that can enable me to be more creative and be able to build visually appealing websites."}
             />
         </div>
     </div>
