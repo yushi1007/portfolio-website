@@ -5,7 +5,7 @@ import Slide from 'react-reveal/Slide'
 
 const About = () => {
     return(
-    <div id="about" class="section section-summary">
+    <div id="about" className="section section-summary">
         <div className="row about">
         <Slide left duration={800}>
             <h1>ABOUT ME</h1>
@@ -24,10 +24,10 @@ const About = () => {
         <Fade bottom duration={1000} delay={600} cascade>
             <div className="icons">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/yushi95"><i className="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://www.instagram.com/yushi.95"><i className="fab fa-instagram"></i></a></li>
-                    <li><a href="https://yushi95.medium.com/"><i className="fab fa-medium-m"></i></a></li>
-                    <li><a href="https://github.com/yushi1007"><i className="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/yushi95" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/yushi.95" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
+                    <li><a href="https://yushi95.medium.com/" target="_blank" rel="noreferrer"><i className="fab fa-medium-m"></i></a></li>
+                    <li><a href="https://github.com/yushi1007" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
                 </ul>
             </div>
         </Fade>
