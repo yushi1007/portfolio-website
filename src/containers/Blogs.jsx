@@ -13,15 +13,15 @@ const Blogs = () => {
             setBlogs(blogs.items)
         })
     }, [])
-    console.log(blogs[0].title)
+
     const blogItems = blogs.map((blog, index) => {
         return(
             <BlogCard 
             key={index}
-            name={blog.title}
+            tags={blog.categories}
+            title={blog.title}
             image={blog.thumbnail}
             link={blog.link}
-            content={blog.content}
             pubDate={blog.pubDate.split(' ')[0]}
             />
         )
@@ -33,7 +33,7 @@ const Blogs = () => {
             <h1>BLOGS</h1>
         </Slide>
         <div className="blogscontainer">
-
+            {blogItems}
         </div>
     </div>
     )
