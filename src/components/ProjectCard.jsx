@@ -30,19 +30,19 @@ const ProjectCard = ({ image, name, description, tags, frontend, backend, live, 
             <div className="project-content">
                 <div className="links">
                     { checkLink(frontend) ? <a href={frontend} target="_blank" rel="noreferrer">
-                    <i class="fab fa-github-alt"></i>
+                    <i className="fab fa-github-alt"></i>
                         <b>Frontend</b></a>:null}
                     { checkLink(backend) ? <a href={backend} target="_blank" rel="noreferrer">
-                    <i class="fab fa-github-alt"></i>
+                    <i className="fab fa-github-alt"></i>
                         <b>Backend</b></a>:null}
                     { checkLink(live) ? <a href={live} target="_blank" rel="noreferrer">
-                    <i class="fas fa-desktop"></i>
+                    <i className="fas fa-desktop"></i>
                         <b>Live</b></a>:null}
                     { checkLink(video) ? <a href={video} target="_blank" rel="noreferrer">
-                    <i class="fas fa-video"></i>
+                    <i className="fas fa-video"></i>
                         <b>Video</b></a>:null}
                     { checkLink(repo) ? <a href={repo} target="_blank" rel="noreferrer">
-                    <i class="fab fa-github-alt"></i>
+                    <i className="fab fa-github-alt"></i>
                         <b>Repo</b></a>:null}
                 </div>
                 <div className="project-details">

@@ -585,5 +585,28 @@ overflow: hidden;
   background: rgba(0, 255, 81, 0.50);
 }
 
+/* ----------------------------------------------- */
+/* BLOGS PAGE */
+/* ----------------------------------------------- */
+.blogspage {
+  padding:50px 50px 50px 50px;
+  margin-top: 50px;
+  overflow: hidden;
+}
 
+.blogspage h1{
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.blogspage h1::after {
+  display: block;
+  height: 2px;
+  background-color: #3fc5f0;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}

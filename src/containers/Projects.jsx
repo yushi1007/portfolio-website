@@ -16,7 +16,7 @@ const Projects = () => {
                 <ProjectCard 
                     name={"Fotoset"}
                     image={Fotoset}
-                    tags={["React", "Redux", "Rails", "PostgreSQL", "JWT", "HTML", "CSS", "Maps JavaScript API", "Places API", "Geocoding API", "Yahoo Weather API"]}
+                    tags={["React", "Redux", "Rails", "PostgreSQL", "JWT", "HTML", "CSS", "Maps JavaScript API", "Places API", "Geocoding API", "Yahoo Weather API", "EmailJS"]}
                     description={"A photo sharing application with camera setting information, include map search, and weather search."}
                     frontend="https://github.com/yushi1007/Fotoset-Frontend"
                     backend="https://github.com/yushi1007/Fotoset-Backend"
@@ -60,7 +60,7 @@ const Projects = () => {
                 <ProjectCard 
                     name={"Portfolio Website"}
                     image={Fotoset}
-                    tags={["React", "HTML", "CSS"]}
+                    tags={["React", "HTML", "CSS", "EmailJS"]}
                     description={"A photo sharing application with camera setting information, include map search, and weather search."}
                     frontend="https://github.com/yushi1007/Fotoset-Frontend"
                     backend="https://github.com/yushi1007/Fotoset-Backend"

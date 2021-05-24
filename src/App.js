@@ -2,8 +2,9 @@ import React from 'react';
 import About from './containers/About';
 import Home from './containers/Home';
 import Navbar from './containers/Navbar';
-import Projects from './containers/Projects';
 import Skills from './containers/Skills';
+import Projects from './containers/Projects';
+import Blogs from './containers/Blogs';
 import './styles/App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <About />
             <Skills />
             <Projects />
+            <Blogs />
         </div>
     </div>
   );
