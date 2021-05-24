@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Slide from 'react-reveal/Slide'
+import BlogCard from '../components/BlogCard';
 
 const Blogs = () => {
 
@@ -8,10 +9,22 @@ const Blogs = () => {
     useEffect(() => {
         fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@yushi95')
         .then((r) => r.json())
-        .then((data) => {
-            console.log(data)
-            setBlogs(blogs)
+        .then((blogs) => {
+            setBlogs(blogs.items)
         })
+    }, [])
+    console.log(blogs[0].title)
+    const blogItems = blogs.map((blog, index) => {
+        return(
+            <BlogCard 
+            key={index}
+            name={blog.title}
+            image={blog.thumbnail}
+            link={blog.link}
+            content={blog.content}
+            pubDate={blog.pubDate.split(' ')[0]}
+            />
+        )
     })
 
     return (
