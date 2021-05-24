@@ -501,6 +501,7 @@ ul li:nth-child(4) a:hover::after {
 .project-card {
 margin: 2px;
 border-radius: 10px;
+background: #fafafa;
 box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 display: block;
 overflow: hidden;
@@ -515,7 +516,6 @@ overflow: hidden;
   line-height: 1.5;
   font-size: 0.9em;
   padding: 15px;
-  background: #fafafa;
 }
 
 .project-details h2 {
@@ -534,6 +534,7 @@ overflow: hidden;
 
 .tags {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tag span {

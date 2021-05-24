@@ -2,7 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Tag from './Tag';
 
-const ProjectCard = ({ image, name, description, tags, frontend, backend, live, video }) => {
+const ProjectCard = ({ image, name, description, tags, frontend, backend, live, video, repo }) => {
 
     const ProjectTags = tags.map((tag, index) => {
         return (
@@ -13,6 +13,14 @@ const ProjectCard = ({ image, name, description, tags, frontend, backend, live, 
         )
     })
 
+    const checkLink = (link) => {
+        if(link.length>0){
+            return true
+        }else{
+            return false
+        }
+    }
+
     return (
     <Fade bottom duration={1000} delay={200}>
         <div className="project-card">
@@ -21,10 +29,11 @@ const ProjectCard = ({ image, name, description, tags, frontend, backend, live, 
                 </div>
             <div className="project-content">
                 <div className="links">
-                    <a href={frontend} target="_blank" rel="noreferrer"><b>Frontend</b></a>
-                    <a href={backend} target="_blank" rel="noreferrer"><b>Backend</b></a>
-                    <a href={live} target="_blank" rel="noreferrer"><b>Live</b></a>
-                    <a href={video} target="_blank" rel="noreferrer"><b>Video</b></a>
+                    { checkLink(frontend) ? <a href={frontend} target="_blank" rel="noreferrer"><b>Frontend</b></a>:null}
+                    { checkLink(backend) ? <a href={backend} target="_blank" rel="noreferrer"><b>Backend</b></a>:null}
+                    { checkLink(live) ? <a href={live} target="_blank" rel="noreferrer"><b>Live</b></a>:null}
+                    { checkLink(video) ? <a href={video} target="_blank" rel="noreferrer"><b>Video</b></a>:null}
+                    { checkLink(repo) ? <a href={repo} target="_blank" rel="noreferrer"><b>Repo</b></a>:null}
                 </div>
                 <div className="project-details">
                     <h2>{name}</h2>
