@@ -551,6 +551,14 @@ overflow: hidden;
     background: rgba(0, 166, 255, 0.16);
 }
 
+.fab {
+  margin-right: 2px;
+}
+
+.fas {
+  margin-right: 2px;
+}
+
 .links a{
     cursor: pointer;
     text-decoration: none;
@@ -566,10 +574,10 @@ overflow: hidden;
     white-space: nowrap;
     vertical-align: middle;
     outline: none;
-    border-radius: 3px;
-    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
     background: rgba(0, 255, 81, 0.16);
-    margin-right: 10px;
+    margin-right: 5px;
     transition: .1s;
 }
 
