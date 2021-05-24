@@ -641,11 +641,13 @@ overflow: hidden;
   display: block;
   border-radius: .8rem;
   box-shadow: 0 0 20px 1px rgb(94 94 94 / 30%);
+  -webkit-transition: .1s;
   transition: .1s;
 }
 
-.blog-img img:hover {
-  scale: ;
+.blog-img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .blog-img::before{
