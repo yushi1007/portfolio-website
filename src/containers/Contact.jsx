@@ -45,6 +45,13 @@ const Contact = () => {
 
 return (
     <div id="contact" className="contactpage">
+            <ul class="contact-background">
+                <li className="blue"></li>
+                <li className="green"></li>
+                <li className="red"></li>
+                <li className="yellow"></li>
+                <li className="blue"></li>
+            </ul>
         <Slide left duration={800}>
             <h1>GET IN TOUCH</h1>
         </Slide>
@@ -103,16 +110,6 @@ return (
             <Fade delay={600} bottom>
                 <Link to="home" smooth={true} duration={500}><img className="uparrow" src={Arrow} alt="scroll down"/></Link>
             </Fade>
-            <ul class="contact-background">
-                <li className="blue"></li>
-                <li className="red"></li>
-                <li className="green"></li>
-                <li className="yellow"></li>
-                <li className="blue"></li>
-                <li className="red"></li>
-                <li className="green"></li>
-                <li className="yellow"></li>
-            </ul>
     </div>
     )
 }

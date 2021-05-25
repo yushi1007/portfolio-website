@@ -53,6 +53,8 @@ const Home = () => {
                 <li className="red"></li>
                 <li className="green"></li>
                 <li className="yellow"></li>
+                <li className="blue"></li>
+                <li className="red"></li>
             </ul>
         </div>
     )

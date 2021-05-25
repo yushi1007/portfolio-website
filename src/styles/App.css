@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+:root {
+  scrollbar-width: none !important;
+}
+
 .App {
   text-align: center;
 }
@@ -727,7 +735,7 @@ overflow: hidden;
 /* CONTACT PAGE */
 /* ----------------------------------------------- */
 .contactpage {
-  padding:50px 50px 50px 50px;
+  padding:50px 0 50px 0;
   margin-top: 50px;
   overflow: hidden;
 }
@@ -856,7 +864,6 @@ textarea[type="text"] {
   transition: .3s;
   border-radius: 50%;
   margin-top: 100px;
-  margin-bottom: 300px;
   padding: 10px 10px 10px 10px;
   transform: rotate(-90deg);
   border: 2px solid #323232;
@@ -872,7 +879,7 @@ textarea[type="text"] {
 }
 
 /* ----------------------------------------------- */
-/* CONTACT PAGE ANIMATION BACKGROUND */
+/* HOME PAGE ANIMATION BACKGROUND */
 /* ----------------------------------------------- */
 .circle {
   top: 0;
@@ -972,6 +979,22 @@ textarea[type="text"] {
   animation-duration: 12s;
 }
 
+.circle li:nth-child(9) {
+  left: 40%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 2s;
+  animation-duration: 10s;
+}
+
+.circle li:nth-child(10) {
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  animation-delay: 1s;
+  animation-duration: 12s;
+}
+
 @keyframes animates {
   0%{
     transform: translateY(0) rotate(0deg);
@@ -979,6 +1002,106 @@ textarea[type="text"] {
   100%{
     transform: translateY(-1000px) rotate(720deg)
   }
+}
+
+/* ----------------------------------------------- */
+/* CONTACT PAGE BACKGROUND */
+/* ----------------------------------------------- */
+.contact-background {
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.contact-background li{
+  display: block;
+  list-style: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 70%;
+}
+
+.contact-background li.blue{
+  background: rgba(35, 104, 197, 0.3);
+}
+
+.contact-background li.red{
+  background: rgba(249, 82, 81, 0.8);
+}
+
+.contact-background li.green{
+  background: rgba(79, 189, 134, 0.8);
+}
+
+.contact-background li.yellow{
+  background: rgba(251, 192, 45, 0.9);
+}
+
+.contact-background li:nth-child(1) {
+  left: -10%;
+  width: 400px;
+  height: 400px;
+}
+
+.contact-background li:nth-child(2) {
+  bottom: 60%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.contact-background li:nth-child(3) {
+  bottom: 60%;
+  left: 10%;
+  width: 250px;
+  height: 250px;
+}
+
+.contact-background li:nth-child(4) {
+  bottom: 90%;
+  left: 70%;
+  width: 600px;
+  height: 600px;
+}
+
+.contact-background li:nth-child(5) {
+  bottom: 130%;
+  left: 35%;
+  width: 200px;
+  height: 200px;
+}
+
+.contact-background li:nth-child(6) {
+  left: 75%;
+  width: 80px;
+  height: 80px;
+}
+
+.contact-background li:nth-child(7) {
+  left: 90%;
+  width: 110px;
+  height: 110px;
+}
+
+.contact-background li:nth-child(8) {
+  left: 20%;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-background li:nth-child(9) {
+  left: 40%;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-background li:nth-child(10) {
+  left: 50%;
+  width: 70px;
+  height: 70px;
 }
 
 @media screen and (max-width: 1068px) {
