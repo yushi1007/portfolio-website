@@ -6,6 +6,8 @@ import Skills from './containers/Skills';
 import Projects from './containers/Projects';
 import Blogs from './containers/Blogs';
 import './styles/App.css';
+import Contact from './containers/Contact';
+import Footer from './containers/Footer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Skills />
             <Projects />
             <Blogs />
+            <Contact />
+            <Footer />
         </div>
     </div>
   );

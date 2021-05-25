@@ -44,6 +44,16 @@ const Home = () => {
                     <Link to="about" smooth={true} duration={500}><img className="arrow" src={Arrow} alt="scroll down"/></Link>
                 </Fade>
             </div>
+            <ul class="circle">
+                <li className="blue"></li>
+                <li className="red"></li>
+                <li className="green"></li>
+                <li className="yellow"></li>
+                <li className="blue"></li>
+                <li className="red"></li>
+                <li className="green"></li>
+                <li className="yellow"></li>
+            </ul>
         </div>
     )
 }

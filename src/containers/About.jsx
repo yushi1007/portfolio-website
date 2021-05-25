@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <Fade bottom duration={1000} delay={600} cascade>
             <div className="icons">
-                <ul>
+                <ul className="iconlist">
                     <li><a href="https://www.linkedin.com/in/yushi95" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
                     <li><a href="https://www.instagram.com/yushi.95" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
                     <li><a href="https://yushi95.medium.com/" target="_blank" rel="noreferrer"><i className="fab fa-medium-m"></i></a></li>
