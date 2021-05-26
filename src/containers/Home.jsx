@@ -22,16 +22,16 @@ const Home = () => {
                 </Fade>
                 <Fade delay={400} bottom >
                     <div className="mytitle">
-                        <p>I'm a{' '}
+                        <p>I'm {' '}
                             <Typical 
                                 loop={Infinity}
                                 wrapper="b"
                                 steps={[
-                                    "Full Stack Web Developer 💻",
+                                    "a Full Stack Web Developer 💻",
                                     1000,
-                                    "Photograher 📸",
+                                    "a Photograher 📸",
                                     1000,
-                                    "Designer 💅",
+                                    "a Designer 💅",
                                     1000,
                                     "Ready To Work With You 💼",
                                     1000
