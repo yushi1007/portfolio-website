@@ -356,7 +356,7 @@ section .wave.wave4 {
 /* ABOUT PAGE */
 /* ----------------------------------------------- */
 .aboutpage {
-  padding-top: 80px;
+  padding-top: 100px;
   margin-top: 5vw;
   overflow: hidden;
 }
@@ -617,7 +617,7 @@ section .wave.wave4 {
 
 .skillspage {
   background: #f4f4f4;
-  padding:50px 0 50px 0;
+  padding:100px 0 50px 0;
   margin-top: 80px;
   overflow: hidden;
 }
@@ -746,7 +746,7 @@ section .wave.wave4 {
 /* PROJECTS PAGE */
 /* ----------------------------------------------- */
 .projectspage {
-  padding:50px 50px 50px 50px;
+  padding:100px 50px 50px 50px;
   margin-top: 50px;
   overflow: hidden;
 }
@@ -867,7 +867,7 @@ overflow: hidden;
 /* BLOGS PAGE */
 /* ----------------------------------------------- */
 .blogspage {
-  padding:50px 50px 50px 50px;
+  padding:100px 50px 50px 50px;
   margin-top: 50px;
   overflow: hidden;
 }
@@ -1004,7 +1004,7 @@ overflow: hidden;
 /* CONTACT PAGE */
 /* ----------------------------------------------- */
 .contactpage {
-  padding:50px 0 50px 0;
+  padding:100px 0 50px 0;
   margin-top: 50px;
   overflow: hidden;
 }
