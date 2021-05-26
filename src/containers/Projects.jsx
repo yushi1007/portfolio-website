@@ -5,6 +5,7 @@ import Fotoset from '../images/fotoset.png'
 import Travelatr from '../images/travelatr.png'
 import QuickPix from '../images/quickpix.png'
 import SpaceBuddies from '../images/spacebuddies.png'
+import Portfolio from '../images/portfolio.png'
 
 const Projects = () => {
     return (
@@ -59,14 +60,14 @@ const Projects = () => {
                 />
                 <ProjectCard 
                     name={"Portfolio Website"}
-                    image={Fotoset}
+                    image={Portfolio}
                     tags={["React", "HTML", "CSS", "EmailJS"]}
-                    description={"A photo sharing application with camera setting information, include map search, and weather search."}
-                    frontend="https://github.com/yushi1007/Fotoset-Frontend"
-                    backend="https://github.com/yushi1007/Fotoset-Backend"
-                    live="https://fotoset.netlify.app/"
-                    video="https://www.loom.com/share/4af16cfc047e43129db5cc362968db6a"
-                    repo=""
+                    description={"This is my portfolio website."}
+                    frontend=""
+                    backend=""
+                    live="https://www.yushi.dev/"
+                    video=""
+                    repo="https://github.com/yushi1007/portfolio-website"
                 />
         </div>
     </div>
