@@ -6,7 +6,7 @@ const Footer = () => {
     return(
         <div id="footer">
             <Fade bottom duration={600} delay={200}>
-                <p>Designed and Create by Yu Shi </p>
+                <p>Designed and Created by Yu Shi </p>
                 <p>Built with React + Vanilla CSS </p>
                 <p><a className="portfolio-repo" href="https://github.com/yushi1007/portfolio-website" target="_blank" rel="noreferrer">View Source Code</a></p>
                 <p className="email"><a href="mailto:yushiys95@gmail.com" rel="noreferrer">yushiys95@gmail.com</a></p>
