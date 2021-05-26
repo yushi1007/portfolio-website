@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-scroll"
 import Logo from '../images/mylogo.png';
 import Resume from '../resume/resume.pdf'
 import Bounce from 'react-reveal/Bounce';
 
 const Navbar = () => {
+
+    
+
     return(
         <div id="navbar" className="navbar-box">
             <div className="navbar">
