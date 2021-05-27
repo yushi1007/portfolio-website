@@ -19,11 +19,7 @@ Or if you have any question/feedback, please do not hesitate to reach out to me!
 
 I want to shout out to Zhengjian(Jay) Liu, I learned CSS and problem solving skills from him. I learned a lot from him. Please do not hesitate to reach out to him!
 
-<table>
-    <tr>
-        <td><a href="https://zhengjianliu.com/"><img src="https://raw.githubusercontent.com/yushi1007/portfolio/dev/src/images/zhengjianliu.png" width="100px;" alt="avatar"/><br/><b>Zhengjian(Jay) Liu</b></a><br/></td>
-    </tr>
-</table>
+![Zhengjian(Jay) Liu](https://user-images.githubusercontent.com/75753187/119867297-b9e02a80-beeb-11eb-86b4-607b16764164.jpeg)
 
 - Github:[@ZhengJian(Jay)Liu](https://github.com/zhengjianliu) 
 - Linked:[LinkedIn](https://www.linkedin.com/in/zhengjian-jay-liu-33776553/)
