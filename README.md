@@ -23,6 +23,7 @@ I want to shout out to Zhengjian(Jay) Liu, he helps me a lot on programming. I l
         <td><a href="https://zhengjianliu.com/"><img src="../images/zhengjianliu.jpeg" width="100px;" alt="avatar"/><br/><b>Zhengjian(Jay) Liu</b></a><br/></td>
     </tr>
 </table>
+
 - Github:[@ZhengJian(Jay)Liu](https://github.com/zhengjianliu) 
 - Linked:[LinkedIn](https://www.linkedin.com/in/zhengjian-jay-liu-33776553/)
 - Portfolio:[Website](https://zhengjianliu.com/)
