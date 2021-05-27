@@ -21,7 +21,7 @@ I want to shout out to Zhengjian(Jay) Liu, I learned CSS and problem solving ski
 
 <table>
     <tr>
-        <td><a href="https://zhengjianliu.com/"><img src="https://raw.githubusercontent.com/yushi1007/portfolio/dev/images/zhengjianliu.png" width="100px;" alt="avatar"/><br/><b>Zhengjian(Jay) Liu</b></a><br/></td>
+        <td><a href="https://zhengjianliu.com/"><img src="https://raw.githubusercontent.com/yushi1007/portfolio/dev/src/images/zhengjianliu.png" width="100px;" alt="avatar"/><br/><b>Zhengjian(Jay) Liu</b></a><br/></td>
     </tr>
 </table>
 
