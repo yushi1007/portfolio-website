@@ -15,6 +15,10 @@ Or if you have any question/feedback, please do not hesitate to reach out to me!
 - Github:[@YUSHI](https://github.com/yushi1007) 
 - Linked:[LinkedIn](https://www.linkedin.com/in/yushi95/)
 
+# Technologies Used
+
+- React
+
 ## Credits
 
 I want to shout out to Zhengjian(Jay) Liu, I learned CSS and problem solving skills from him. I learned a lot from him. Please do not hesitate to reach out to him!
@@ -29,7 +33,4 @@ I want to shout out to Zhengjian(Jay) Liu, I learned CSS and problem solving ski
 - Linked:[LinkedIn](https://www.linkedin.com/in/zhengjian-jay-liu-33776553/)
 - Portfolio:[Website](https://zhengjianliu.com/)
 
-# Technologies Used
-
-- React
 
