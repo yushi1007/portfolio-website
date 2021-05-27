@@ -18,7 +18,8 @@ Or if you have any question/feedback, please do not hesitate to reach out to me!
 ## Credit
 
 I want to shout out to Zhengjian(Jay) Liu, he helps me a lot on programming. I learned CSS and problem solving skills from him. I learned a lot from him. Please do not hesitate to reach out to him! Very nice person. 
-<a href="https://zhengjianliu.com/"><img src="../images/zhengjianliu.png" width="100px;" alt="avatar"/></a>
+
+<img src="../images/zhengjianliu.png" width="100px;" alt="avatar"/>
 
 - Github:[@ZhengJian(Jay)Liu](https://github.com/zhengjianliu) 
 - Linked:[LinkedIn](https://www.linkedin.com/in/zhengjian-jay-liu-33776553/)
