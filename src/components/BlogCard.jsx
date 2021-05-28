@@ -2,7 +2,7 @@ import React from 'react'
 import Tag from './Tag';
 import Fade from 'react-reveal/Fade';
 
-const BlogCard = ({ title, image, link, tags, pubDate }) => {
+const BlogCard = ({ title, image, link, tags, pubDate, toggle }) => {
 
     const blogTags = tags.map((tag, index) => {
         return (
@@ -15,7 +15,7 @@ const BlogCard = ({ title, image, link, tags, pubDate }) => {
 
     return (
     <Fade bottom duration={1000} delay={200}>
-      <div className='blog-card'>
+      <div className={toggle ? 'blog-card darkmode' : 'blog-card'}>
             <a href={link} target="_blank" rel="noreferrer">
                 <div className="blog-img">
                     <img src={image} className="img" alt="blog post"/>

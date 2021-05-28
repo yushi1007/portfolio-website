@@ -1,4 +1,11 @@
 @import './grid.css';
+@import './Navbar.css';
+@import './Modebutton.css';
+@import './Darkmode.css';
+
+.portfolio {
+
+}
 * {
   margin: 0;
   padding: 0;
@@ -16,97 +23,8 @@ body::-webkit-scrollbar {
 
 .App {
   text-align: center;
-}
-
-/* ----------------------------------------------- */
-/* NAVBAR */
-/* ----------------------------------------------- */
-.navbar-box {
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-  z-index: 100000;
-}
-
-.navbar {
-  color: #000;
-  font-weight: bold;
-  align-items: center;
-  text-decoration: none;
-  justify-content: flex-end;
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 50px;
-  width: 100%;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-          background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-.navbar img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 200px;
-  margin-top: 10px;
-}
-
-.navbar h3{
-  cursor: pointer;
-  margin-right: 22vw;
-  font-size: large;
-}
-
-.navlink {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-}
-
-.navlink li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.navlink li a {
-  transition: all 0.3s ease 0s;
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
-}
-
-.navlink li a:hover {
-  color: #0088a9;
-}
-
-.navbar-btn {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: large;
-  padding: 6px 20px;
-  background-color: rgb(0, 166, 255);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-.navbar-btn:hover{
-  background-color: #000;
-  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 /* ----------------------------------------------- */
@@ -598,7 +516,7 @@ section .wave.wave4 {
 
 .about-background li:nth-child(3) {
   bottom: 38%;
-  left: 20%;
+  left: 14%;
   width: 300px;
   height: 300px;
   transform: rotate(-135deg)
@@ -615,7 +533,7 @@ section .wave.wave4 {
 }
 
 .skillspage {
-  padding:100px 0 50px 0;
+  padding:0 0 50px 0;
   margin-top: 80px;
   overflow: hidden;
 }
@@ -652,6 +570,8 @@ section .wave.wave4 {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.24);
   cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .skill-card:hover {
@@ -781,6 +701,8 @@ background: #fafafa;
 box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 display: block;
 overflow: hidden;
+-webkit-transition: 1s;
+transition: 1s;
 }
 
 .project-img img {
@@ -900,6 +822,8 @@ overflow: hidden;
   display: flex;
   align-items: center;
   border-radius:.8rem;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .blog-img {
@@ -1027,6 +951,8 @@ overflow: hidden;
 .contactpage h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight:normal;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .contactpage h4 {
@@ -1034,6 +960,8 @@ overflow: hidden;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .contact-btn button {
@@ -1192,6 +1120,8 @@ textarea[type="text"] {
   left: 50%;
   width: 300px;
   height: 300px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .contact-background li:nth-child(3) {
@@ -1206,6 +1136,8 @@ textarea[type="text"] {
   left: 70%;
   width: 600px;
   height: 600px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .contact-background li:nth-child(5) {
@@ -1213,6 +1145,8 @@ textarea[type="text"] {
   left: 35%;
   width: 200px;
   height: 200px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 /* ----------------------------------------------- */
@@ -1221,8 +1155,8 @@ textarea[type="text"] {
 #footer {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
-  line-height: 145%;
-  margin-top: 30px;
+  line-height: 180%;
+  padding-bottom: 130px;
 }
 
 .email a{

@@ -2,7 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Tag from './Tag';
 
-const ProjectCard = ({ image, name, description, tags, frontend, backend, live, video, repo }) => {
+const ProjectCard = ({ image, name, description, tags, frontend, backend, live, video, repo, toggle }) => {
 
     const ProjectTags = tags.map((tag, index) => {
         return (
@@ -23,7 +23,7 @@ const ProjectCard = ({ image, name, description, tags, frontend, backend, live, 
 
     return (
     <Fade bottom duration={1000} delay={200}>
-        <div className="project-card">
+        <div className={toggle ? "project-card darkmode" : "project-card"}>
                 <div className="project-img">
                     <img src={image} alt="project img"/>
                 </div>

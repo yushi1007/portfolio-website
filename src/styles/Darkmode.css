@@ -1,0 +1,286 @@
+/* ----------------------------------------------- */
+/* DARK MODE */
+/* ----------------------------------------------- */
+.App.darkmode {
+background-color: #1a202c;
+-webkit-transition: 1s;
+transition: 1s;
+}
+
+/* ----------------------------------------------- */
+/* HOMEPAGE DARK MODE */
+/* ----------------------------------------------- */
+.homebg.darkmode{
+    width: 100%;
+    height: 100vh;
+    background: #1a202c;
+    overflow: hidden;
+    z-index: -20;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.introduction.darkmode h1{
+    color: #fff;
+}
+
+.introduction.darkmode p {
+    color: #fff;
+}
+
+.introduction.darkmode p {
+    color: #fff;
+}
+
+.introduction.darkmode .arrow {
+    border: 2px solid #000;
+    background: #fff;
+    transition: .3s;
+}
+
+.introduction.darkmode .arrow:hover{
+    border: 2px solid #009ed9;
+    color: #009ed9;
+}
+
+/* ----------------------------------------------- */
+/* NAVBAR DARK MODE */
+/* ----------------------------------------------- */
+.navbar.darkmode {
+    background-color: rgba(0,0,0,.3);
+    box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.navbar.darkmode ul li a{
+    color: #fff;
+}
+
+.navbar.darkmode ul li a:hover{
+    color: rgb(0, 166, 255);
+}
+
+.navbar.darkmode ul li a .navbar-btn{
+    color: #fff;
+}
+
+.navbar.darkmode ul li a .navbar-btn:hover{
+    color: #000;
+    background: #fff;
+}
+
+/* ----------------------------------------------- */
+/* ABOUT PAGE DARK MODE */
+/* ----------------------------------------------- */
+.aboutpage.darkmode{
+    padding-top: 100px;
+    margin-top: 5vw;
+}
+
+.aboutpage.darkmode h1{
+    color: #fff;
+}
+
+.aboutpage.darkmode p{
+    color: #fff;
+}
+
+.about-background.darkmode {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.aboutpage.darkmode .iconlist{
+    z-index: 1;
+}
+
+.aboutpage.darkmode .resumelink div {
+    z-index: 1;
+}
+
+.aboutpage.darkmode .resumelink {
+    z-index: 1;
+}
+
+/* ----------------------------------------------- */
+/* SKILLS PAGE DARK MODE */
+/* ----------------------------------------------- */
+.skillspage.darkmode h1{
+    color: #fff;
+}
+
+.skill-card.darkmode{
+    z-index: 1;
+    background: #192734;
+    box-shadow: 1px 1px 3px rgb(255 255 255 / 100%), 
+                1px 1px 2px rgb(255 255 255 / 100%);
+    border: 1px solid white;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.skill-card.darkmode:hover {
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 
+                0 10px 10px rgba(255, 255, 255, 0.22);
+}
+
+.skill-card.darkmode .skill-card-body{
+    color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* PROJECTS PAGE DARK MODE */
+/* ----------------------------------------------- */
+.projectspage.darkmode h1{
+    color: #fff;
+}
+
+.project-card.darkmode{
+    background: #1a202c;
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px 1px rgb(255 255 255 / 30%);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.project-card.darkmode .project-content{
+    color: #fff;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.blogspage.darkmode h1{
+    color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* BLOGS PAGE DARK MODE */
+/* ----------------------------------------------- */
+.blogspage.darkmode h1{
+    color: #fff;
+}
+
+.blog-card.darkmode{ 
+    background: #1a202c;
+    border: 1px solid #fff;
+    color: #fff;
+    box-shadow: 0 0 5px 1px rgb(255 255 255 / 30%);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+/* ----------------------------------------------- */
+/* CONTACT PAGE DARK MODE */
+/* ----------------------------------------------- */
+.contactpage.darkmode h1{
+    color: #fff;
+}
+
+.contactpage.darkmode h3{
+    color: #fff;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.contactpage.darkmode h4{
+    color: #fff;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.contactpage.darkmode .contact-background {
+    left: 0;
+    width: 100%;
+    height: 800px;
+    z-index: 0;
+    position: absolute;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.contactpage.darkmode .contact-background li:nth-child(2){
+    bottom: 60%;
+    left: 70%;
+    width: 300px;
+    height: 300px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.contactpage.darkmode .contact-background li:nth-child(4){
+    bottom: 86%;
+    left: 83%;
+    width: 400px;
+    height: 400px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.contactpage.darkmode .contact-background li:nth-child(5){
+    bottom: 120%;
+    left: 35%;
+    width: 200px;
+    height: 200px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.contactpage.darkmode .contact-btn button{
+    border: 3px solid #fff;
+    color: #fff;
+    transition: .3s;
+}
+
+.contactpage.darkmode .contact-btn button:hover{
+    border: 3px solid rgb(0, 166, 255);
+    color: rgb(0, 166, 255);;
+    background: #fff;
+}
+
+.contactpage.darkmode a .uparrow {
+    border: 2px solid #000;
+    background: #fff;
+    transition: .3s;
+}
+
+.contactpage.darkmode a .uparrow:hover {
+    border: 2px solid #009ed9;
+    color: #009ed9;
+}
+
+.contact-box.darkmode form .form-input .inputicon{
+    position: absolute;
+    background: #fff;
+    margin-right: 18px;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 44px;
+    height: 36px;
+    padding-top: 10px;
+    border: 1px solid #fff;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER PAGE DARK MODE */
+/* ----------------------------------------------- */
+.footer.darkmode p{
+ color: #fff;
+}
+
+.footer.darkmode .email a{
+    color: #fff;
+}
+
+.footer.darkmode .footer-icon li:nth-child(3) a .fab {
+    color: #fff;
+}
+
+.footer.darkmode .footer-icon li:nth-child(4) a .fab {
+    color: #fff;
+}

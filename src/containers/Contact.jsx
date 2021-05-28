@@ -7,7 +7,7 @@ import Email from '../svg/email.svg';
 import Jump from 'react-reveal/Jump';
 import Arrow from '../svg/arrow.svg';
 
-const Contact = () => {
+const Contact = ({ toggle }) => {
     
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
@@ -44,8 +44,8 @@ const Contact = () => {
     }
 
 return (
-    <div id="contact" className="contactpage">
-            <ul class="contact-background">
+    <div id="contact" className={toggle ? "contactpage darkmode" : "contactpage"}>
+            <ul class={toggle ? "contact-background darkmode" : "contact-background"}>
                 <li className="blue"></li>
                 <li className="green"></li>
                 <li className="red"></li>

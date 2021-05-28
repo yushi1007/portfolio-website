@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Slide from 'react-reveal/Slide'
 import BlogCard from '../components/BlogCard';
 
-const Blogs = () => {
+const Blogs = ({ toggle }) => {
 
     const [blogs, setBlogs] = useState([])
 
@@ -23,12 +23,13 @@ const Blogs = () => {
             image={blog.thumbnail}
             link={blog.link}
             pubDate={blog.pubDate.split(' ')[0]}
+            toggle={toggle}
             />
         )
     })
 
     return (
-    <div id="blogs" className="section blogspage">
+    <div id="blogs" className={toggle ? "blogspage darkmode" : "blogspage"}>
         <Slide left duration={800}>
             <h1>BLOGS</h1>
         </Slide>

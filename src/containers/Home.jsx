@@ -4,16 +4,16 @@ import Typical from 'react-typical'
 import Fade from 'react-reveal/Fade';
 import Arrow from '../svg/arrow.svg';
 
-const Home = () => {
+const Home = ({ toggle }) => {
     return(
         <div id="home" className="homepage">
-            <section>
+            <section className={toggle ? "homebg darkmode" : ""}>
                 <div className="wave wave1"></div>
                 <div className="wave wave2"></div>
                 <div className="wave wave3"></div>
                 <div className="wave wave4"></div>
             </section>
-            <div className="introduction">
+            <div className={toggle ? "introduction darkmode" : "introduction"}>
                 <Fade delay={200} bottom cascade>
                     <div className="myname">
                         <h1>Hello world 👋!</h1>

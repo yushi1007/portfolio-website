@@ -2,9 +2,9 @@ import React from 'react';
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
 
-const Footer = () => {
+const Footer = ({ toggle }) => {
     return(
-        <div id="footer">
+        <div id="footer" className={toggle ? "footer darkmode" : "footer"}>
             <Fade bottom duration={600} delay={200}>
                 <p>Designed and Created by Yu Shi </p>
                 <p>Built with React + Vanilla CSS </p>

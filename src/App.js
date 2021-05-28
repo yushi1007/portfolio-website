@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles/App.css';
 import About from './containers/About';
 import Home from './containers/Home';
@@ -10,17 +10,40 @@ import Contact from './containers/Contact';
 import Footer from './containers/Footer';
 
 function App() {
+
+  const [toggle, setToggled] = useState(false)
+  const handleClick = () => {
+    setToggled((toggle) => !toggle);
+};
+
   return (
-    <div className="App">
+    <div className={toggle ? "App darkmode":"App"}>
         <div className="portfolio">
-            <Home />
-            <Navbar />
-            <About />
-            <Skills />
-            <Projects />
-            <Blogs />
-            <Contact />
-            <Footer />
+            <Home 
+            toggle={toggle}
+            />
+            <Navbar 
+            toggle={toggle}
+            handleClick={handleClick}
+            />
+            <About 
+            toggle={toggle}
+            />
+            <Skills 
+            toggle={toggle}
+            />
+            <Projects 
+            toggle={toggle}
+            />
+            <Blogs 
+            toggle={toggle}
+            />
+            <Contact 
+            toggle={toggle}
+            />
+            <Footer 
+            toggle={toggle}
+            />
         </div>
     </div>
   );

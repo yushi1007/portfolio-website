@@ -7,9 +7,9 @@ import QuickPix from '../images/quickpix.png'
 import SpaceBuddies from '../images/spacebuddies.png'
 import Portfolio from '../images/portfolio.png'
 
-const Projects = () => {
+const Projects = ({ toggle }) => {
     return (
-    <div id="projects" className="section projectspage">
+    <div id="projects" className={toggle ? "projectspage darkmode" : "projectspage"}>
             <Slide left duration={800}>
                 <h1>TECHNICAL PROJECTS</h1>
             </Slide>
@@ -24,6 +24,7 @@ const Projects = () => {
                     live="https://fotoset.netlify.app/"
                     video="https://www.loom.com/share/4af16cfc047e43129db5cc362968db6a"
                     repo=""
+                    toggle={toggle}
                 />
                 <ProjectCard 
                     name={"Travelatr"}
@@ -35,6 +36,7 @@ const Projects = () => {
                     live="https://travelatr.netlify.app/"
                     video="https://www.loom.com/share/d988149f565c404bbc4f93fae8b5c976"
                     repo=""
+                    toggle={toggle}
                 />
                 <ProjectCard 
                     name={"QuickPix"}
@@ -46,6 +48,7 @@ const Projects = () => {
                     live="https://quickpix-yd.herokuapp.com/"
                     video="https://www.loom.com/share/bb90c26da6fc4cf294de2159e2173dce"
                     repo=""
+                    toggle={toggle}
                 />
                 <ProjectCard 
                     name={"Space Buddies"}
@@ -57,17 +60,19 @@ const Projects = () => {
                     live=""
                     video=""
                     repo="https://github.com/sssandraa/project-1"
+                    toggle={toggle}
                 />
                 <ProjectCard 
                     name={"Portfolio Website"}
                     image={Portfolio}
                     tags={["React", "HTML", "CSS", "EmailJS"]}
-                    description={"This is my portfolio website."}
+                    description={"This is my portfolio website. Built with React and Vanilla CSS"}
                     frontend=""
                     backend=""
                     live="https://www.yushi.dev/"
                     video=""
                     repo="https://github.com/yushi1007/portfolio-website"
+                    toggle={toggle}
                 />
         </div>
     </div>

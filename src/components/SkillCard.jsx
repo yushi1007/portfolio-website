@@ -1,10 +1,10 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-const SkillCard = ({ icon, title, description }) => {
+const SkillCard = ({ icon, title, description, toggle }) => {
     return (
     <Fade bottom duration={1000} delay={200}>
-        <div className="skill-card">
+        <div className={toggle ? "skill-card darkmode" : "skill-card"}>
             <div className="skill-card-header">
                 <img src={icon} alt="skill-logo"/>
             </div>

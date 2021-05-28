@@ -3,14 +3,13 @@ import { Link } from "react-scroll"
 import Logo from '../images/mylogo.png';
 import Resume from '../resume/resume.pdf'
 import Bounce from 'react-reveal/Bounce';
+import ModeButton from '../components/ModeButton';
 
-const Navbar = () => {
-
-    
+const Navbar = ({ toggle, handleClick }) => {
 
     return(
         <div id="navbar" className="navbar-box">
-            <div className="navbar">
+            <div className={toggle ? "navbar darkmode" : "navbar"}>
             <Bounce right cascade duration={800}>
                     <ul className="navlink">
                         <li><Link to="about" activeClass="active" spy={true} smooth={true} duration={700}><img src={Logo} alt="logo"/></Link></li>
@@ -21,6 +20,7 @@ const Navbar = () => {
                         <li><Link to="blogs" activeClass="active" spy={true} smooth={true} duration={700}>Blogs</Link></li>
                         <li><a href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
                         <li><Link to="contact" activeClass="active" spy={true} smooth={true} duration={700}><button className="navbar-btn">Contact</button></Link></li>
+                        <li><span id="modebutton"><ModeButton toggle={toggle} handleClick={handleClick}/></span></li>
                     </ul>
             </Bounce>
             </div>
