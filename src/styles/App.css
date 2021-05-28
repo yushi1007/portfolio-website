@@ -1043,14 +1043,13 @@ textarea[type="text"] {
 
 .inputicon {
   position:absolute;
-  background: #fff;
+  background: transparent;
   margin-right: 18px;
   margin-top: 2px;
   margin-left: 4px;
   width: 44px;
   height: 36px;
   padding-top: 10px;
-  border: 1px solid #fff;
 }
 
 .uparrow {
