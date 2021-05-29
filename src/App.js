@@ -12,9 +12,15 @@ import Footer from './containers/Footer';
 function App() {
 
   const [toggle, setToggled] = useState(false)
+  const [open, setOpen] = useState(false)
+
   const handleClick = () => {
     setToggled((toggle) => !toggle);
 };
+
+  const handleNavbarClick = () => {
+    setOpen((open) => !open)
+  }
 
   return (
     <div className={toggle ? "App darkmode":"App"}>
@@ -25,6 +31,8 @@ function App() {
             <Navbar 
             toggle={toggle}
             handleClick={handleClick}
+            handleNavbarClick={handleNavbarClick}
+            open={open}
             />
             <About 
             toggle={toggle}

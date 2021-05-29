@@ -5,11 +5,11 @@ import Resume from '../resume/resume.pdf'
 import Bounce from 'react-reveal/Bounce';
 import ModeButton from '../components/ModeButton';
 
-const Navbar = ({ toggle, handleClick }) => {
+const Navbar = ({ toggle, handleClick, open, handleNavbarClick}) => {
 
     return(
         <div id="navbar" className="navbar-box">
-            <div className={toggle ? "navbar darkmode" : "navbar"}>
+            <div id={toggle ? "darkmode" : ""} className={open ? "navbar active" : "navbar"}>
             <Bounce right cascade duration={800}>
                     <ul className="navlink">
                         <li><Link to="about" activeClass="active" spy={true} smooth={true} duration={700}><img src={Logo} alt="logo"/></Link></li>
@@ -23,6 +23,11 @@ const Navbar = ({ toggle, handleClick }) => {
                         <li><span id="modebutton"><ModeButton toggle={toggle} handleClick={handleClick}/></span></li>
                     </ul>
             </Bounce>
+            <div className={open ? "hamburger active" : "hamburger"} onClick={handleNavbarClick}>
+                <li className="line"></li>
+                <li className="line"></li>
+                <li className="line"></li>
+            </div>
             </div>
         </div>
     )

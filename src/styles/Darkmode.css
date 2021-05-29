@@ -46,7 +46,7 @@ transition: 1s;
 /* ----------------------------------------------- */
 /* NAVBAR DARK MODE */
 /* ----------------------------------------------- */
-.navbar.darkmode {
+#darkmode {
     background-color: rgba(0,0,0,.3);
     box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
     backdrop-filter: blur(10px);
@@ -55,19 +55,28 @@ transition: 1s;
     transition: 1s;
 }
 
-.navbar.darkmode ul li a{
+#darkmode ul li a{
     color: #fff;
 }
 
-.navbar.darkmode ul li a:hover{
+#darkmode ul li a:hover{
     color: rgb(0, 166, 255);
 }
 
-.navbar.darkmode ul li a .navbar-btn{
+#darkmode ul li a .navbar-btn{
     color: #fff;
 }
 
-.navbar.darkmode ul li a .navbar-btn:hover{
+#darkmode ul li a .navbar-btn:hover{
+    color: #000;
+    background: #fff;
+}
+
+#darkmode ul li .active {
+    color: #009ed9;
+}
+
+#darkmode ul li .active button{
     color: #000;
     background: #fff;
 }
@@ -173,6 +182,10 @@ transition: 1s;
     box-shadow: 0 0 5px 1px rgb(255 255 255 / 30%);
     -webkit-transition: 1s;
     transition: 1s;
+}
+
+.blog-card.darkmode .content .blogdate span{
+    color: white;
 }
 
 /* ----------------------------------------------- */
