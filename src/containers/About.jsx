@@ -12,19 +12,19 @@ const About = ({ toggle }) => {
             <li className="red"></li>
         </ul>
         <div className="row about">
-        <Slide left duration={800}>
-            <h1>ABOUT ME</h1>
-        </Slide>
-        <Fade bottom duration={1000} delay={150}>
-            <p className="summary">
-                <strong>Hi there! my name is Yu Shi, a Software Engineer with experience building full stack applications with JavaScript, React, and Ruby on Rails.</strong> Possess strong skills in designing, developing and testing multiple web-based applications. Data driven and creative in finding solutions to complex problems. Love to develop innovative applications that enable creativity.
-            </p><br/>
-        </Fade>
-        <Fade bottom duration={1000} delay={300}>
-            <p className="summary">
-                I love the entire process of developing creative websites. It allows me to create something both beautiful and functional. I want to continue improving my skills that can enable me to be more creative and be able to build visually appealing websites.
-            </p>
-        </Fade>
+            <Slide left duration={800}>
+                <h1>ABOUT ME</h1>
+            </Slide>
+            <Fade bottom duration={1000} delay={150}>
+                <p className="summary">
+                    <strong>Hi there! my name is Yu Shi, a Software Engineer with experience building full stack applications with JavaScript, React, and Ruby on Rails.</strong> Possess strong skills in designing, developing and testing multiple web-based applications. Data driven and creative in finding solutions to complex problems. Love to develop innovative applications that enable creativity.
+                </p><br/>
+            </Fade>
+            <Fade bottom duration={1000} delay={300}>
+                <p className="summary">
+                    I love the entire process of developing creative websites. It allows me to create something both beautiful and functional. I want to continue improving my skills that can enable me to be more creative and be able to build visually appealing websites.
+                </p>
+            </Fade>
         </div>
         <Fade bottom duration={1000} delay={600} cascade>
             <div className="icons">

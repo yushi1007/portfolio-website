@@ -296,11 +296,18 @@ section .wave.wave4 {
   margin-top: 30px;
 }
 
+.about {
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  max-width: 800px;
+}
+
 .summary {
-  width: 50%;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 145%;
-  margin: 0 25% 0 25%;
   text-align: left;
   font-weight: bold;
 }
@@ -1231,6 +1238,33 @@ textarea[type="text"] {
 
   .about-background li:nth-child(3) {
     left: -20%;
+  }
+
+  .about {
+    width: 70%;
+  }
+
+  .summary {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 145%;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .iconlist li {
+    margin:0 30px 0 30px;
+    text-decoration: none;
+    transition: transform .2s;
+  }
+
+  .iconlist li a{
+    width: 50px;
+    height: 50px
+  }
+
+  .iconlist li a .fab{
+    line-height: 50px;
+    font-size: 20px;
   }
 
     }
