@@ -22,14 +22,20 @@ transition: 1s;
 
 .introduction.darkmode h1{
     color: #fff;
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
 .introduction.darkmode p {
     color: #fff;
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
 .introduction.darkmode p {
     color: #fff;
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
 .introduction.darkmode .arrow {

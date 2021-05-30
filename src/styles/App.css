@@ -114,12 +114,16 @@ section .wave.wave4 {
 .myname h1{
   font-size: 3em;
   margin: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .mytitle p {
   font-weight: bold;
   font-size: 1.5em;
   margin: 2vw 0 8vw 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .arrow {
@@ -218,11 +222,11 @@ section .wave.wave4 {
 }
 
 .circle li:nth-child(6) {
-  left: 75%;
+  left: 5%;
   width: 80px;
   height: 80px;
-  animation-delay: 3s;
-  animation-duration: 12s;
+  animation-delay: 2s;
+  animation-duration: 11s;
 }
 
 .circle li:nth-child(7) {
@@ -471,8 +475,10 @@ section .wave.wave4 {
 .about-background {
   left: 0;
   width: 100%;
-  height: 100%;
+  padding:100px 0 150px 0 ;
+  /* height: 100%; */
   z-index: -1;
+  overflow: hidden;
   position: absolute;
 }
 
@@ -498,21 +504,19 @@ section .wave.wave4 {
 
 .about-background li:nth-child(1) {
   left: -10%;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   transform: rotate(-130deg);
 }
 
 .about-background li:nth-child(2) {
-  bottom: 23%;
   left: 75%;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   transform: rotate(-130deg)
 }
 
 .about-background li:nth-child(3) {
-  bottom: 38%;
   left: 14%;
   width: 300px;
   height: 300px;
@@ -1076,7 +1080,9 @@ textarea[type="text"] {
   left: 0;
   width: 100%;
   height: 800px;
+  padding-top: 50px;
   z-index: -1;
+  overflow: hidden;
   position: absolute;
 }
 
@@ -1204,6 +1210,31 @@ textarea[type="text"] {
 .footer-icon li:nth-child(4) a .fab {
   color: #333;
 }
+
+@media only screen and (max-width: 880px) {
+  .myname h1{
+    font-size: 2em;
+    margin: 0;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .mytitle p {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 2vw 0 8vw 0;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .circle li:nth-child(7) {
+    left: 70%;
+  }
+
+  .about-background li:nth-child(3) {
+    left: -20%;
+  }
+
+    }
 
 @media screen and (max-width: 1068px) {
   .blogscontainer {
