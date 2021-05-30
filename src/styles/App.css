@@ -164,7 +164,7 @@ section .wave.wave4 {
   height: 20px;
   border-radius: 70%;
   animation: animates 25s linear infinite;
-  bottom: -150px;
+  bottom: -30px;
 }
 
 .circle li.blue{
