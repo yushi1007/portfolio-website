@@ -557,7 +557,7 @@ section .wave.wave4 {
 }
 
 .skillscontainer {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1388,43 +1388,6 @@ textarea[type="text"] {
   }
     }
 
-@media screen and (max-width: 1068px) {
-  .projectscontainer {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1500px;
-    justify-content: center;
-    align-content: center;
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 20px;
-  }
-
-  .blog-card {
-    padding: 1rem;
-    flex-direction: column;
-    max-width: 395px;
-    height: auto;
-  }
-
-  .blog-img {
-    min-width: 300px;
-    max-width: 400px;
-    height: 150px;
-  }
-
-  .blog-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contactpage {
-    margin-top: 0;
-    padding: 100px 30px 50px 30px;
-  }
-}
-
 @media screen and (max-width: 868px) {
   .blog-card {
     padding: 1rem;
@@ -1446,7 +1409,7 @@ textarea[type="text"] {
     justify-content: center;
     align-content: center;
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
     gap: 20px;
   }
 
