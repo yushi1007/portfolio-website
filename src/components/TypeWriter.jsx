@@ -1,8 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
 import useTypewriter from "react-typewriter-hook";
-import { random } from "lodash";
 
 const typingTitles = [
     "a Full Stack Web Developer 💻",

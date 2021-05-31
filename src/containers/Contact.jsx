@@ -20,16 +20,11 @@ const Contact = ({toggle}) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        let formData = {
-            name: name,
-            email: email,
-            message: message,
-        };
 
         const templateParams = {
             from_name: name,
             from_email: email,
-            to_name: 'Fotoset',
+            to_name: 'Yu',
             message_html: message,
            }
            emailjs.send(
