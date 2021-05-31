@@ -134,7 +134,7 @@ section .wave.wave4 {
 .mytitle p {
   font-weight: bold;
   font-size: 1.5em;
-  margin: 2vw 0 8vw 0;
+  margin: 3vh 0 6vh 0;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -1245,10 +1245,11 @@ textarea[type="text"] {
   .mytitle p {
     font-weight: bold;
     font-size: 1em;
-    margin: 2vw 0 8vw 0;
+    margin: 3vh 0 6vh 0;
     -webkit-transition: 1s;
     transition: 1s;
   }
+
   .circle li:nth-child(7) {
     left: 70%;
   }

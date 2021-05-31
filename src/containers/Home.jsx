@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from "react-scroll"
-import Typical from 'react-typical'
+import { Link } from "react-scroll";
 import Fade from 'react-reveal/Fade';
 import Arrow from '../svg/arrow.svg';
+import TypeWriter from '../components/TypeWriter';
 
 const Home = ({ toggle }) => {
     return(
@@ -14,33 +14,18 @@ const Home = ({ toggle }) => {
                 <div className="wave wave4"></div>
             </section>
             <div className={toggle ? "introduction darkmode" : "introduction"}>
-                <Fade delay={200} bottom cascade>
+                <Fade delay={400} bottom cascade>
                     <div className="myname">
                         <h1>Hello world 👋!</h1>
                         <h1>I'm Yu Shi.</h1>
                     </div>
                 </Fade>
-                <Fade delay={400} bottom >
+                <Fade delay={600} bottom>
                     <div className="mytitle">
-                        <p>I'm {' '}
-                            <Typical 
-                                loop={Infinity}
-                                wrapper="b"
-                                steps={[
-                                    "a Full Stack Web Developer 💻",
-                                    1000,
-                                    "a Photograher 📸",
-                                    1000,
-                                    "a Designer 💅",
-                                    1000,
-                                    "Ready To Work With You 💼",
-                                    1000
-                                ]}
-                            />
-                        </p>    
+                        <p><TypeWriter /> </p> 
                     </div>
                 </Fade>
-                <Fade delay={600} bottom>
+                <Fade delay={1300} bottom>
                     <Link to="about" smooth={true} duration={500}><img className="arrow" src={Arrow} alt="scroll down"/></Link>
                 </Fade>
             </div>
