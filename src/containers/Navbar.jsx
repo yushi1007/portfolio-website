@@ -20,7 +20,7 @@ const Navbar = ({ toggle, handleClick, open, handleNavbarClick}) => {
                         <li><Link to="blogs" activeClass="active" spy={true} smooth={true} duration={700}>Blogs</Link></li>
                         <li><a href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
                         <li><Link to="contact" activeClass="active" spy={true} smooth={true} duration={700}><button className="navbar-btn">Contact</button></Link></li>
-                        <li><span id="modebutton"><ModeButton toggle={toggle} handleClick={handleClick}/></span></li>
+                        <li className="last-item"><span id="modebutton"><ModeButton toggle={toggle} handleClick={handleClick}/></span></li>
                     </ul>
             </Bounce>
                     <div className={open ? "hamburger active" : "hamburger"} onClick={handleNavbarClick}>

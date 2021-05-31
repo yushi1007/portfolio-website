@@ -37,7 +37,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-top: 10px;
   }
   
@@ -68,6 +68,10 @@
     text-decoration: none;
     color: #000;
     cursor: pointer;
+  }
+
+  .last-item {
+    margin-left: auto;
   }
   
   .navlink li a:hover {
