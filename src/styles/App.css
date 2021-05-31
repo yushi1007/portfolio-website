@@ -41,12 +41,12 @@ body::-webkit-scrollbar {
 /* HOME PAGE */
 /* ----------------------------------------------- */
 .homepage {
-  max-width: 100%;
   margin: 0;
   width: 100%;
   height: 100vh;
-  background: #00bbffad;
+  max-width: 100%;
   overflow: hidden;
+  background: #00bbffad;
 }
 
 /* section {
@@ -1238,6 +1238,13 @@ textarea[type="text"] {
 }
 
 @media only screen and (max-width: 880px) {
+  section {
+    display: none;
+  }
+
+  .circle li{
+    bottom: -100px;
+  }
 
   .myname h1{
     font-size: 2em;
@@ -1394,7 +1401,14 @@ textarea[type="text"] {
     }
 
 @media screen and (max-width: 868px) {
-  
+  section {
+    display: none;
+  }
+
+  .circle li{
+    bottom: -100px;
+  }
+
   .blog-card {
     padding: 1rem;
     flex-direction: column;
