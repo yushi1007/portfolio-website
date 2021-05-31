@@ -6,8 +6,8 @@ import TypeWriter from '../components/TypeWriter';
 
 const Home = ({ toggle }) => {
     return(
-        <div id="home" className="homepage">
-            <section className={toggle ? "homebg darkmode" : ""}>
+        <div id="home" className={toggle ? "homepage darkmode" : "homepage"}>
+            <section>
                 <div className="wave wave1"></div>
                 <div className="wave wave2"></div>
                 <div className="wave wave3"></div>
