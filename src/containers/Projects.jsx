@@ -66,7 +66,7 @@ const Projects = ({ toggle }) => {
                     name={"Portfolio Website"}
                     image={Portfolio}
                     tags={["React", "HTML", "CSS", "EmailJS"]}
-                    description={"This is my portfolio website. Built with React and Vanilla CSS"}
+                    description={"This is my portfolio website. Built with React and Vanilla CSS."}
                     frontend=""
                     backend=""
                     live="https://www.yushi.dev/"

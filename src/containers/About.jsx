@@ -23,6 +23,11 @@ const About = ({ toggle }) => {
             <Fade bottom duration={1000} delay={300}>
                 <p className="summary">
                     I love the entire process of developing creative websites. It allows me to create something both beautiful and functional. I want to continue improving my skills that can enable me to be more creative and be able to build visually appealing websites.
+                </p><br/>
+            </Fade>
+            <Fade bottom duration={1000} delay={300}>
+                <p className="summary">
+                    In 2015, I've gotten into photography. In my free time, I enjoy exploring the different places in the world and going out to take photos. I love the challenge of finding caches and spending time to meet new people. Learning how people hide things and where people are likely to look.
                 </p>
             </Fade>
         </div>

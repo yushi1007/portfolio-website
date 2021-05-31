@@ -23,11 +23,11 @@ const Navbar = ({ toggle, handleClick, open, handleNavbarClick}) => {
                         <li><span id="modebutton"><ModeButton toggle={toggle} handleClick={handleClick}/></span></li>
                     </ul>
             </Bounce>
-            <div className={open ? "hamburger active" : "hamburger"} onClick={handleNavbarClick}>
-                <li className="line"></li>
-                <li className="line"></li>
-                <li className="line"></li>
-            </div>
+                    <div className={open ? "hamburger active" : "hamburger"} onClick={handleNavbarClick}>
+                        <li className="line"></li>
+                        <li className="line"></li>
+                        <li className="line"></li>
+                    </div>
             </div>
         </div>
     )
