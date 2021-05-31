@@ -1230,9 +1230,9 @@ textarea[type="text"] {
 }
 
 @media only screen and (max-width: 880px) {
-  /* section {
+  section {
     display: none;
-  } */
+  }
 
   .circle li{
     bottom: -125px;
@@ -1393,9 +1393,9 @@ textarea[type="text"] {
     }
 
 @media screen and (max-width: 868px) {
-  /* section {
+  section {
     display: none;
-  } */
+  }
 
   .circle li{
     bottom: -125px;
