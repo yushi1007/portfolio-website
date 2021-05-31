@@ -1368,6 +1368,24 @@ textarea[type="text"] {
     -webkit-transition: 1s;
     transition: 1s;
   }
+
+.contact-box form {
+    width: 300px;
+    height: 400px;
+    margin: 10px auto 0;
+    padding: 70px 0 0 0;
+}
+  
+  .contact-box {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+  }
+
+  input[type="text"] {
+    width: 200px;
+  }
     }
 
 @media screen and (max-width: 1068px) {
