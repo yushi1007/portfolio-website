@@ -29,7 +29,7 @@ const BlogCard = ({ title, image, link, tags, pubDate, toggle }) => {
                 <div className="blogtags">
                     <span className="blogtags">{blogTags}</span>
                 </div>
-                    <a href={link} target="_blank" rel="noreferrer" className="blog-btn">Read More</a>
+                <a href={link} target="_blank" rel="noreferrer" className="blog-btn">Read More</a>
             </div>
       </div>
     </Fade>
