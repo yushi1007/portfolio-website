@@ -64,7 +64,7 @@ section .wave.wave1 {
   z-index: 1000;
   opacity: 1;
   animation-delay: 0s;
-  bottom: -25px;
+  bottom: -40px;
 }
 
 section .wave.wave2 {
@@ -72,7 +72,7 @@ section .wave.wave2 {
   z-index: 999;
   opacity: 0.5;
   animation-delay: -5s;
-  bottom: -10px;
+  bottom: -15px;
 }
 
 section .wave.wave3 {
@@ -88,7 +88,7 @@ section .wave.wave4 {
   z-index: 997;
   opacity: 0.7;
   animation-delay: -5s;
-  bottom: -20px;
+  bottom: -25px;
 }
 
 @keyframes animate {
@@ -1230,9 +1230,9 @@ textarea[type="text"] {
 }
 
 @media only screen and (max-width: 880px) {
-  section {
+  /* section {
     display: none;
-  }
+  } */
 
   .circle li{
     bottom: -125px;
@@ -1393,9 +1393,9 @@ textarea[type="text"] {
     }
 
 @media screen and (max-width: 868px) {
-  section {
+  /* section {
     display: none;
-  }
+  } */
 
   .circle li{
     bottom: -125px;
