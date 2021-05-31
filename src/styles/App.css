@@ -49,12 +49,12 @@ body::-webkit-scrollbar {
   overflow: hidden;
 }
 
-section {
+/* section {
   width: 100%;
   height: 100vh;
   overflow: hidden;
   z-index: -20;
-}
+} */
 
 section .wave {
   position: absolute;
