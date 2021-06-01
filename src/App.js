@@ -36,7 +36,7 @@ function App() {
   return (
     <div className={toggle ? "App darkmode":"App"}>
       {!loading ? 
-       <Loader />
+        <Loader />
         :
         <div className="portfolio">
             <Home 
