@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles/App.css';
 import About from './containers/About';
 import Home from './containers/Home';
@@ -8,11 +8,15 @@ import Projects from './containers/Projects';
 import Blogs from './containers/Blogs';
 import Contact from './containers/Contact';
 import Footer from './containers/Footer';
+import Loader from './components/Loader';
+
+const delay = 3;
 
 function App() {
 
   const [toggle, setToggled] = useState(false)
   const [open, setOpen] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const handleClick = () => {
     setToggled((toggle) => !toggle);
@@ -22,8 +26,18 @@ function App() {
     setOpen((open) => !open)
   }
 
+  useEffect(() => {
+    let timer = setTimeout(() => setLoading(true), delay * 1000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [loading])
+
   return (
     <div className={toggle ? "App darkmode":"App"}>
+      {!loading ? 
+       <Loader />
+        :
         <div className="portfolio">
             <Home 
             toggle={toggle}
@@ -53,6 +67,7 @@ function App() {
             toggle={toggle}
             />
         </div>
+        }
     </div>
   );
 }
