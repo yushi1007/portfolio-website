@@ -20,7 +20,6 @@ const TypeWriter = () => {
   useEffect(
     () => {
       intervalRef.current = setInterval(() => {
-        // index = index + 1 > 2 ? 0 : ++index + 1;
         index = index > 2 ? 0 : ++index;
         setTitles(typingTitles[index]);
       }, 5000);
