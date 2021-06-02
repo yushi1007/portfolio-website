@@ -8,17 +8,6 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  -webkit-user-drag: none;
   list-style-type: none;
 }
 
