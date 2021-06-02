@@ -10,7 +10,7 @@ import Contact from './containers/Contact';
 import Footer from './containers/Footer';
 import Loader from './components/Loader';
 
-const delay = 3;
+const delay = 2;
 
 function App() {
 
