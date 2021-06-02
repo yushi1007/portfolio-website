@@ -1,6 +1,6 @@
 import React from "react";
-import { useState, useEffect, useRef } from "react";
 import useTypewriter from "react-typewriter-hook";
+import { useState, useEffect, useRef } from "react";
 
 const typingTitles = [
     "a Full Stack Web Developer 💻",
