@@ -6,7 +6,6 @@ import Bounce from 'react-reveal/Bounce';
 import ModeButton from '../components/ModeButton';
 
 const Navbar = ({ toggle, handleClick, open, handleNavbarClick}) => {
-
     return(
         <div id="navbar" className="navbar-box">
             <div id={toggle ? "darkmode" : ""} className={open ? "navbar active" : "navbar"}>

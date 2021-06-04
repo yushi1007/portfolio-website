@@ -3,7 +3,6 @@ import { BoltLoader } from "react-awesome-loaders";
 import { XlviLoader } from "react-awesome-loaders";
 
 const Loader = () => {
-
     return (
     <div id="loading">
         <div className="desktop-loader">
