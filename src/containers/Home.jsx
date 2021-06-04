@@ -29,7 +29,7 @@ const Home = ({ toggle }) => {
                     <Link to="about" smooth={true} duration={500}><img className="arrow" src={Arrow} alt="scroll down"/></Link>
                 </Fade>
             </div>
-            <ul class="circle">
+            <ul className="circle">
                 <li className="blue"></li>
                 <li className="red"></li>
                 <li className="green"></li>

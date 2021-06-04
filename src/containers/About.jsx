@@ -6,7 +6,7 @@ import Slide from 'react-reveal/Slide'
 const About = ({ toggle }) => {
     return(
     <div id="about" className={toggle ? "aboutpage darkmode" : "aboutpage"}>
-        <ul class={toggle ? "about-background darkmode" : "about-background"}>
+        <ul className={toggle ? "about-background darkmode" : "about-background"}>
             <li className="blue"></li>
             <li className="yellow"></li>
             <li className="red"></li>

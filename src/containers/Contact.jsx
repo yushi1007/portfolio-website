@@ -40,7 +40,7 @@ const Contact = ({toggle}) => {
 
 return (
     <div id="contact" className={toggle ? "contactpage darkmode" : "contactpage"}>
-            <ul class={toggle ? "contact-background darkmode" : "contact-background"}>
+            <ul className={toggle ? "contact-background darkmode" : "contact-background"}>
                 <li className="blue"></li>
                 <li className="green"></li>
                 <li className="red"></li>
@@ -67,7 +67,7 @@ return (
             <br/>
             <form onSubmit={handleSubmit}>
                 <div className="form-input">
-                <i class="fas fa-user inputicon"></i>
+                <i className="fas fa-user inputicon"></i>
                 <input
                     type="text"
                     name="name"
@@ -77,7 +77,7 @@ return (
                     onChange={(e) => setName(e.target.value)}
                 />
                 <br></br>
-                <i class="fas fa-envelope inputicon"></i>
+                <i className="fas fa-envelope inputicon"></i>
                 <input
                     type="text"
                     name="email"
@@ -87,7 +87,7 @@ return (
                     onChange={(e) => setEmail(e.target.value)}
                 /> 
                 <br></br>
-                <i class="far fa-comment-dots inputicon"></i>
+                <i className="far fa-comment-dots inputicon"></i>
                 <textarea
                     type="text"
                     name="message"
