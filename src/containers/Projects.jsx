@@ -6,6 +6,8 @@ import Travelatr from '../images/travelatr.png'
 import QuickPix from '../images/quickpix.png'
 import SpaceBuddies from '../images/spacebuddies.png'
 import Portfolio from '../images/portfolio.png'
+import DisneyPlusClone from '../images/disneyclone.png'
+import AmazonClone from '../images/amazonclone.png'
 
 const Projects = ({ toggle }) => {
     return (
@@ -14,6 +16,30 @@ const Projects = ({ toggle }) => {
                 <h1>TECHNICAL PROJECTS</h1>
             </Slide>
         <div className="projectscontainer">
+                <ProjectCard 
+                    name={"Amazon Clone"}
+                    image={AmazonClone}
+                    tags={["React", "React Context API", "Firebase", "Stripe", "Material-UI", "HTML", "CSS"]}
+                    description={"This is an Amazon Clone that implemented the Stripe payment processor."}
+                    frontend="https://github.com/yushi1007/Amazon-Clone/tree/main/src"
+                    backend="https://github.com/yushi1007/Amazon-Clone/tree/main/functions"
+                    live="https://e-commerce-store-app.web.app/"
+                    video=""
+                    repo=""
+                    toggle={toggle}
+                />
+                <ProjectCard 
+                    name={"Disney+ Clone"}
+                    image={DisneyPlusClone}
+                    tags={["React", "Redux", "Firebase", "Styled-Components", "HTML", "CSS"]}
+                    description={"This is a Disney+ Clone that allows user to sign in with Google account and see all the movies' details."}
+                    frontend="https://github.com/yushi1007/Disney-Plus-Clone"
+                    backend="https://github.com/yushi1007/Disney-Plus-Clone/blob/main/src/firebase.js"
+                    live="https://disney-plus-clone-app-e706d.web.app/"
+                    video=""
+                    repo=""
+                    toggle={toggle}
+                />
                 <ProjectCard 
                     name={"Fotoset"}
                     image={Fotoset}

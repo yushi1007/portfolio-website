@@ -898,6 +898,7 @@ transition: 1s;
 .blog-img:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
+          
 }
 
 .blog-img::before{
