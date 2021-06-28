@@ -24,7 +24,7 @@ const Projects = ({ toggle }) => {
                     frontend="https://github.com/yushi1007/Amazon-Clone/tree/main/src"
                     backend="https://github.com/yushi1007/Amazon-Clone/tree/main/functions"
                     live="https://e-commerce-store-app.web.app/"
-                    video=""
+                    video="https://youtu.be/W37dflBSDGs"
                     repo=""
                     toggle={toggle}
                 />
@@ -36,7 +36,7 @@ const Projects = ({ toggle }) => {
                     frontend="https://github.com/yushi1007/Disney-Plus-Clone"
                     backend="https://github.com/yushi1007/Disney-Plus-Clone/blob/main/src/firebase.js"
                     live="https://disney-plus-clone-app-e706d.web.app/"
-                    video=""
+                    video="https://youtu.be/BqYtAKUvWoI"
                     repo=""
                     toggle={toggle}
                 />

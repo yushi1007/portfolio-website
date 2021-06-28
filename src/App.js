@@ -40,31 +40,31 @@ function App() {
         :
         <div className="portfolio">
             <Home 
-            toggle={toggle}
+              toggle={toggle}
             />
             <Navbar 
-            toggle={toggle}
-            handleClick={handleClick}
-            handleNavbarClick={handleNavbarClick}
-            open={open}
+              toggle={toggle}
+              handleClick={handleClick}
+              handleNavbarClick={handleNavbarClick}
+              open={open}
             />
             <About 
-            toggle={toggle}
+              toggle={toggle}
             />
             <Skills 
-            toggle={toggle}
+              toggle={toggle}
             />
             <Projects 
-            toggle={toggle}
+              toggle={toggle}
             />
             <Blogs 
-            toggle={toggle}
+              toggle={toggle}
             />
             <Contact 
-            toggle={toggle}
+              toggle={toggle}
             />
             <Footer 
-            toggle={toggle}
+              toggle={toggle}
             />
         </div>
         }
