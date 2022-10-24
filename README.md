@@ -1,8 +1,8 @@
-# yushi.dev
+# https://yushi-dev.netlify.app/
 
 Welcome to my portfolio website, thank you for checking it out. 
 
-### 🌐 [Repo](https://github.com/yushi1007/portfolio-website) | [Live](https://www.yushi.dev/) 
+### 🌐 [Repo](https://github.com/yushi1007/portfolio-website) | [Live](https://yushi-dev.netlify.app/) 
 
 If you like my portfolio website, please give a ⭐️! Thank you so much.
 
